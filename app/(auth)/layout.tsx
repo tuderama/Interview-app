@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 
 function AuthLayout({children}:{children: ReactNode}) {
   return (
-    <div>{children}</div>
+    <div className="auth-layout">{children}</div>
   )
 }
 
